@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .title {
+    color: #56b9f1;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 625px;
+  }
+  
+  /* Tabel */
+  .main-content {
+    margin-left: 130px; /* Berikan jarak untuk sidebar */
+    padding: 20px;
+    overflow-x: auto;
+  }
+  
+  .btntb {
+    background-color: #56b9f1;
+    border-radius: 40px;
+  }
+  
+  .mb-0 {
+    color: #56b9f1;
+    font-weight: bold;
+  }
+  
+  .card {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 25px;
+  }
+  
+  .table th,
+  .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .table th {
+    background-color: #e9ecef;
+  }
+  
+  /* Background Umum */
+  .background {
+    background-color: #fff;
+  }
+  
+  /* Kontainer Kategori Produk */
+  .category {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding: 50px;
+    padding-left: 450px;
+    justify-content: flex-start;
+  }
+  
+  /* Link dalam Product Box */
+  .category-box-link {
+    text-decoration: none; /* Hilangkan underline */
+    color: inherit; /* Warna teks mengikuti induknya */
+  }
+  
+  /* Kotak Produk */
+  .category-box {
+    background-color: #fff;
+    border: 2px solid transparent; /* Garis luar transparan sebagai default */
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px; /* Lebar produk */
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, border 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Hover effect - border garis luar muncul */
+  .category-box:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #5ca5ff; /* Warna garis luar biru */
+    background-color: #f8f9fa; /* Latar belakang abu muda */
+  }
+  
+  /* Active effect - warna berubah menjadi biru saat diklik */
+  .category-box:active {
+    background-color: #5ca5ff; /* Warna latar biru saat dipencet */
+    color: #fff; /* Warna teks menjadi putih */
+    border: 2px solid #5ca5ff; /* Warna garis luar biru */
+  }
+  
+  /* Judul Nominal Produk */
+  .nominal-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Harga Produk */
+  .product-price {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Jumlah Produk */
+  .product-quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Sidebar Styling */
+  .sidebar {
+    position: fixed;
+    top: 56px; /* Sesuaikan dengan tinggi navbar atas */
+    left: -32px;
+    width: 100px;
+    height: calc(100vh - 56px); /* Tinggi penuh minus tinggi navbar atas */
+    background-color: #56b9f1;
+    border-right: #ddd;
+    padding: 32px;
+    border-radius: 0 20px 20px 0; /* Radius hanya di sisi kanan */
+  }
+  
+  .nav-item {
+    padding-bottom: 50px;
+  }
+  
+  /* Background Custom */
+  .custom-bg {
+    background-color: #fff;
+  }
+  
+  /* Teks Custom */
+  .custom-text {
+    color: #000;
+    text-decoration: solid;
+  }
+  
+  .form-control::placeholder {
+    color: #56b9f1;
+  }

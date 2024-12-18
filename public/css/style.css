@@ -1,0 +1,124 @@
+/* Produk Container */
+.background
+{
+    background-color: #fff;
+}
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+a.logout-color {
+    color: crimson;
+}
+
+.btn-outline-success.custom-outline {
+    border-color: #56B9F1 !important; /* Ganti dengan warna yang Anda inginkan */
+    color: #56B9F1 !important; /* Ganti dengan warna teks sesuai keinginan */
+}
+
+.btn-outline-success.custom-outline:hover {
+    background-color: #ff5733 !important; /* Warna latar saat hover */
+    color: #fff !important; /* Warna teks saat hover */
+}
+
+.shadow-thick
+{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Kotak Produk */
+.product-box {
+    background-color: #56B9F1; /* Warna biru muda */
+    border-radius: 10px;
+    padding-left: 10px;
+    width: calc(25% - 40px); /* Maksimal 4 kolom per baris */
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000; /* Warna hitam */
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #fff; /* Warna latar harga */
+    padding: 8px;
+    border-radius: 5px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+/* Bagian Jumlah Produk */
+.product-quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.quantity-btn {
+    background-color: #5ca5ff; /* Warna tombol */
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity-btn:hover {
+    background-color: #009EDB; /* Warna tombol saat hover */
+}
+
+.custom-bg {
+    background-color: #fff;
+}
+
+.custom-text{
+    color :#000;
+    text-decoration: solid;
+}
+
+.center-box {
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center; /* Vertical center */
+    margin: 0;
+    height: 80px;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 56px; /* Sesuaikan dengan tinggi navbar atas */
+    left: -32px;
+    width: 100px;
+    height: calc(100vh - 56px); /* Tinggi penuh minus tinggi navbar atas */
+    background-color: #56B9F1;
+    border-right: #ddd;
+    padding: 32px;
+    border-radius: 40px;
+    border-bottom: 100px;
+  }
+
+.nav-item {
+    padding-bottom: 50px;
+}

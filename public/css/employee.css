@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.title {
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 625px;
+  text-shadow: 1px 1px 1px;
+}
+
+/* Tabel */
+.main-content {
+  margin-left: 230px; /* Berikan jarak untuk sidebar */
+  margin-right: 50px;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.btntb {
+  background-color: #56b9f1;
+  border-radius: 40px;
+}
+
+.btn-sm {
+  color: #000;
+}
+
+.mb-0 {
+  color: #56b9f1;
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-right: 25px;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table th {
+  background-color: #e9ecef;
+}
+
+/* Background Umum */
+.background {
+  background-color: #fff;
+}
+
+/* Kontainer Kategori Produk */
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  padding: 50px;
+  padding-left: 60px;
+  justify-content: flex-start;
+}
+
+/* Link dalam Product Box */
+.category-box-link {
+  text-decoration: none; /* Hilangkan underline */
+  color: inherit; /* Warna teks mengikuti induknya */
+}
+
+/* Kotak Produk */
+.category {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.category-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 180px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nominal-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.category-price {
+  font-size: 14px;
+  color: #555;
+}
+
+img {
+  vertical-align: middle;
+}
+
+#out {
+  margin: 650px 20px 0px 20px;
+  width: 80px;
+  background-color: #56b9f1;
+  position: fixed;
+  height: 30px;
+  overflow: auto;
+  color: #ffff;
+}
+.sidebar {
+  padding-left: 50px;
+  width: 250px;
+  background-color: #56b9f1 ;
+  position: fixed;
+  height: 1200px;
+  overflow: auto;
+  border-radius: 40px;
+  margin-left: -40px;
+}
+.sidebar h1 {
+  padding: 5px 28px;
+  color: #ffff;
+  font-size: 20px;
+  font-style: bold;
+}
+
+.sidebar a {
+  display: block;
+  color: #ffff;
+  padding: 14px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+.sidebar a:hover:not(.active) {
+  background-color: #999894;
+  color: white;
+  border-radius: 20px;
+  transition: 0.6s ease;
+  text-decoration: none;
+}
+
+.nav-item {
+  padding-bottom: 50px;
+}
+
+/* Background Custom */
+.custom-bg {
+  background-color: #fff;
+}
+
+/* Teks Custom */
+.custom-text {
+  color: #000;
+  text-decoration: solid;
+}
+
+.form-control::placeholder {
+  color: #56b9f1;
+}
